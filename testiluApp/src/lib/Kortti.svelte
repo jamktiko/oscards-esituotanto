@@ -2,7 +2,7 @@
 	let { cardTitle }: { cardTitle: string } = $props();
 </script>
 
-<div>
+<div class="  h-20 w-80 border-2 bg-slate-700">
 	<button>
 		<div>
 			{cardTitle}
