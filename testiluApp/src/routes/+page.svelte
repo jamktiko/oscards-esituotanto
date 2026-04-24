@@ -2,7 +2,8 @@
 	import CategoryButton from './CategoryButton.svelte';
 </script>
 
-<div>
+<div class="m-1">
+	<h1>Best..</h1>
 	<a href="/new">
 		<CategoryButton name="Best Actors" />
 	</a>
