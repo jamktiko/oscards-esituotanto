@@ -1,42 +1,62 @@
-# sv
+--START
+This is a example template, which you can use. Version 1.0.
+--END
+# Project Title
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Simple overview of use/purpose.
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+An in-depth paragraph about your project and overview of use.
 
-```sh
-# create a new project
-npx sv create my-app
+## Getting Started
+
+### Dependencies
+
+- Describe any prerequisites, libraries, frameworks, etc., the sofware uses.
+
+### Installing
+
+- How/where to download your program
+- Any modifications needed to be made to files/folders
+
+### Executing program
+
+- How to run the program
+- Step-by-step bullets
+
+```
+code blocks for commands
 ```
 
-To recreate this project with the same configuration:
+## Help
 
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography,forms" --install npm oscardstesti1
+Any advise for common problems or issues.
+
+```
+command to run if program contains helper info
 ```
 
-## Developing
+## Authors
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Contributors names
 
-```sh
-npm run dev
+## Version History
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- 0.2
+  - Various bug fixes and optimizations
+- 0.1
+  - Initial Release
 
-## Building
+## License
 
-To create a production version of your app:
+This project is licensed under the CC BY-SA 4.0 License - see the LICENSE.md file for details
 
-```sh
-npm run build
-```
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-You can preview the production build with `npm run preview`.
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Acknowledgments
+
+Inspiration, code snippets, etc.
